@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Estado colors -->
+    <color name="estado_operativo">#4CAF50</color>
+    <color name="estado_mantenimiento">#FFC107</color>
+    <color name="estado_fuera_servicio">#F44336</color>
+</resources>

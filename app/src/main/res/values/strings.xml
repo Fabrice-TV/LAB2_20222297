@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Gestión de Equipos</string>
+
+    <!-- Login -->
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="error_credenciales">Usuario o contraseña incorrectos</string>
+    <string name="error_sin_internet">Sin conexión a internet</string>
+
+    <!-- Form -->
+    <string name="label_codigo">Código</string>
+    <string name="hint_codigo">Ingrese el código</string>
+    <string name="label_nombre">Nombre</string>
+    <string name="hint_nombre">Ingrese el nombre</string>
+    <string name="label_tipo">Tipo de equipo</string>
+    <string name="label_estado">Estado</string>
+    <string name="label_observaciones">Observaciones</string>
+    <string name="hint_observaciones">Ingrese observaciones</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="title_agregar">Agregar Equipo</string>
+    <string name="title_editar">Editar Equipo</string>
+
+    <!-- Estados -->
+    <string name="estado_operativo">Operativo</string>
+    <string name="estado_mantenimiento">En mantenimiento</string>
+    <string name="estado_fuera_servicio">Fuera de servicio</string>
+
+    <!-- Menú -->
+    <string name="menu_refresh">Refrescar</string>
+    <string name="menu_editar">Editar</string>
+    <string name="menu_eliminar">Eliminar</string>
+
+    <!-- FAB -->
+    <string name="fab_add">Agregar equipo</string>
+
+    <!-- Spinners -->
+    <string name="spinner_todos_tipos">Todos los tipos</string>
+    <string name="spinner_todos_estados">Todos los estados</string>
+
+    <!-- Diálogos -->
+    <string name="dialog_eliminar_titulo">Confirmar eliminación</string>
+    <string name="dialog_eliminar_mensaje">¿Desea eliminar este equipo?</string>
+    <string name="dialog_btn_si">Sí</string>
+    <string name="dialog_btn_no">No</string>
+
+    <!-- Validaciones -->
+    <string name="error_campo_requerido">Este campo es requerido</string>
+    <string name="error_seleccione_estado">Seleccione un estado</string>
+    <string name="msg_equipo_guardado">Equipo guardado correctamente</string>
+    <string name="msg_equipo_eliminado">Equipo eliminado</string>
+
+    <!-- Tipos de equipo -->
+    <string-array name="tipos_equipo">
+        <item>Multímetro</item>
+        <item>OTDR</item>
+        <item>Medidor de potencia</item>
+        <item>Analizador de espectro</item>
+        <item>Pinza amperimétrica</item>
+    </string-array>
+</resources>
